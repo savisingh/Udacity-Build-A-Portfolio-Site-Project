@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Build a portfolio site</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+   </head>
+
+   <body>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+      <header>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <img src="img/dwight.jpg" alt="Dwight Schrute Pic">
+               </div>
+               <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                  <div class="container-fluid">
+                     <h2 class="name">DWIGHT SCHRUTE</h2>
+                     <h5 class="job-title">ASSISTANT TO THE REGIONAL MANAGER</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <hr>
+                  <p><span></span></p>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <article>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <div>
+                     <img src="img/schrutefarms.jpg" alt="Schrute Farms Logo">
+                  </div>
+               </div>
+               <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                  <h1>Schrute Farms</h1>
+                  <p><span>We grow beets, to sell to local markets. We also keep various animals on the farm. The farm is 60 acres inherited from my father. Unfortunately, my Aunt Shirley died, fortunately leaving me and Mose with another 1600 acres.</span><span> We are also available for private hire; we do weddings, barn events, beet farming show days. The barn also functions as a Bed and Breakfast, and we are happy to accomodate parties of up to 10. Some of you might even be lucky enough to stay in the barn.</span></p>
+               </div>
+            </div>
+         </div>
+
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <p><span></span></p>
+               </div>
+            </div>
+         </div>
+      </article>
+
+      <article>
+         <div class="container-fluid">
+            <!-- Note: 2 separate rows within this container. This is due to the problem that occured when trying to get the images to have the same height and width. Splitting the images into a separate row than the heading and paragraph solved this issue. -->
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2>Featured Work</h2>
+                  <p><span></span></p>
+               </div>
+            </div>
+            
+            <div class="row">
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <div class="img-wrapper">
+                     <img src="img/beets.jpg" alt="Beets">
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <div class="img-wrapper">
+                     <img src="img/bears.jpg" alt="Bears">
+                  </div>
+               </div>
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <div class="img-wrapper">
+                     <img src="img/battlestar.jpg" alt="BattleStar Galactica">
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <h4 class="features-text">Beets</h4>
+                  <p class="features-text">Beets make the world a <i>better</i> place</p>
+               </div>
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <h4 class="features-text">Bears</h4>
+                  <p class="features-text">Bears make the world a <i>safer</i> place</p>
+               </div>
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <h4 class="features-text">BattleStar Galactica</h4>
+                  <p class="features-text">BattleStar Galactica make the world a <i>happier</i> place</p>
+               </div>
+            </div>
+         </div>
+      </article>
+   </body>
+</html>
